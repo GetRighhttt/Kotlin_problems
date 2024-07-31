@@ -20,6 +20,7 @@ fun getConcatenation(nums: IntArray): IntArray {
 
 fun main() {
     val array = intArrayOf(1, 2, 3)
-    val concat = getConcatenation(array)
+    val newArray = intArrayOf(2, 5)
+    val concat = getConcatenation(newArray + array)
     println(concat)
 }
