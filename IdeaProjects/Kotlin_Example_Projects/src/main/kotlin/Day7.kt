@@ -6,3 +6,8 @@
 
 
 fun smallestEvenMultiple(n: Int): Int = if (n % 2 == 0) n else n * 2
+
+fun main(args: Array<String>) {
+    val n = smallestEvenMultiple(38)
+    println(n)
+}
